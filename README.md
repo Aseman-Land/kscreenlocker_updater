@@ -35,7 +35,7 @@ Then get source from the git, build and install it:
 git clone https://github.com/Aseman-Land/kscreenlocker_updater.git
 cd kscreenlocker_updater
 mkdir build && cd build
-qmake ..
+qmake .. PREFIX=/usr
 make
 sudo make install
 ```
