@@ -8,7 +8,7 @@ It's only works for KDE/Plasma users on the Linux (Tested just on the ubuntu/kub
 
 It watch `$HOME/.config/plasma-org.kde.plasma.desktop-appletsrc` file for changes, If your wallpaper changed, It creates a blurred image from your wallpaper to `$HOME/.cache/kscreenlocker_updater/` and Update the `$HOME/.config/kscreenlockerrc` file to the new lock-screen background.
 
-###Files to watch or changes:
+### Files to watch or changes:
 
 ```yaml
 Watch:
