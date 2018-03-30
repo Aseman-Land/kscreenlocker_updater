@@ -6,7 +6,7 @@ It's only works for KDE/Plasma users on the Linux (Tested just on the ubuntu/kub
 
 ## How it works?
 
-It watch `$HOME/.config/plasma-org.kde.plasma.desktop-appletsrc` file for changes, If your wallpaper changed, It creates a blurred image from your wallpaper to `$HOME/.cache/kscreenlocker_updater/` and Update the `$HOME/.config/kscreenlockerrc` file to the new lock-screen background.
+It watches `$HOME/.config/plasma-org.kde.plasma.desktop-appletsrc` file for changes, If your wallpaper changes, It creates a blurred image from your wallpaper to `$HOME/.cache/kscreenlocker_updater/` and Updates the `$HOME/.config/kscreenlockerrc` file to the new lock-screen background.
 
 ### Files to watch or changes:
 
@@ -42,7 +42,7 @@ sudo make install
 
 ## How to run?
 
-Before start it just set your lock-screen mode to Image type from `System Settings > Screen Locking > Appearance > Wallpaper Type`
+Before starting it just set your lock-screen mode to Image type from `System Settings > Screen Locking > Appearance > Wallpaper Type`
 
 ![](http://aseman.co/github/kscreenlocker_updater/configs.jpg)
 
@@ -52,4 +52,4 @@ And then, Just simply run it:
 kscreenlocker_updater
 ```
 
-You can also put it to the startup to run it automatically every time you logged-in to your Plasma-Desktop
+You can also put it in the startup to run it automatically every time you log in to your Plasma-Desktop
