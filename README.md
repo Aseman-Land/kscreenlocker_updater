@@ -42,7 +42,11 @@ sudo make install
 
 ## How to run?
 
-It's easy to. Just run it :)
+Before start it just set your lock-screen mode to Image type from `System Settings > Screen Locking > Appearance > Wallpaper Type`
+
+![](http://aseman.co/github/kscreenlocker_updater/configs.jpg)
+
+And then, Just simply run it:
 
 ```bash
 kscreenlocker_updater
