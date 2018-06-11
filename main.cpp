@@ -163,7 +163,7 @@ void checkWallpaperConfigsFile(const QString &path)
         if(line.isEmpty())
             continue;
 
-        if(line[0] == '[' && line.contains("[Wallpaper][org.kde.image][General]"))
+        if(line[0] == '[' && line.contains("[Containments][1][Wallpaper][org.kde.image][General]"))
             started = true;
         else
         if(line[0] == '[')
@@ -193,6 +193,7 @@ void checkWallpaperConfigsFile(const QString &path)
                         cache += ch;
                     }
 
+                    qDebug() << cache;
                     writeKLockerConfigs( cacheBluredImage(cache) );
                 }
             }
